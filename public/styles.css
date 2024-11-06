@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Georgia', serif;
+    background-color: #f3e9dc;
+    color: #3d2b1f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff8ed;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: 2px solid #d3b18d;
+  }
+  
+
+  header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #d3b18d;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #8b4513;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px #e5c7a2;
+  }
+  
+  header form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  header form input[type="text"] {
+    padding: 10px;
+    width: 250px;
+    border: 2px solid #d3b18d;
+    border-radius: 5px 0 0 5px;
+    background-color: #fbf7f3;
+    color: #3d2b1f;
+    font-style: italic;
+    outline: none;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  header form input[type="text"]:focus {
+    border-color: #8b4513;
+    background-color: #f7f1e6;
+  }
+  
+  header form button {
+    padding: 10px 15px;
+    border: none;
+    color: #fff;
+    background-color: #8b4513;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  header form button:hover {
+    background-color: #5a2d0c;
+  }
+  
+  main {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  main h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #3d2b1f;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    background-color: #fbf7f3;
+    border: 1px solid #d3b18d;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  li:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  li strong {
+    font-size: 1.2rem;
+    color: #3d2b1f;
+  }
+  
+  li span {
+    color: #7d5a50;
+  }
+  
+
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #7d5a50;
+    font-size: 0.9rem;
+  }
+  
+  footer p {
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
